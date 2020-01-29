@@ -1,0 +1,66 @@
+header:
+  version: 8
+
+distro: poky
+target: core-image-base
+
+repos:
+
+  poky:
+    url: https://git.yoctoproject.org/git/poky
+    refspec: 1cebd3469e295b4b1ae46effe5cf521b5264ee05
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+
+  meta-freescale:
+    url: https://github.com/Freescale/meta-freescale
+    refspec: 38591d703677a2da81878a4148d8feaa17f30767
+
+  meta-freescale-3rdparty:
+    url: https://github.com/Freescale/meta-freescale-3rdparty
+    refspec: fdc6360b8f803257e9ad74a3ce150d6e2393fa8a
+
+  meta-atmel:
+    url: https://github.com/linux4sam/meta-atmel
+    refspec: 9af1ce6886789e842fb6ab91f00bada53f4f7d98
+
+  meta-openembedded:
+    url: http://git.openembedded.org/meta-openembedded
+    refspec: 4043bcc714d4aa7abaee7e8e5911f76701207497
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+
+bblayers_conf_header:
+  standard: |
+    POKY_BBLAYERS_CONF_VERSION = "2"
+    BBPATH = "${TOPDIR}"
+    BBFILES ?= ""
+local_conf_header:
+  systemd: |
+    VIRTUAL-RUNTIME_init_manager = "systemd"
+    DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
+    VIRTUAL-RUNTIME_initscripts = ""
+    DISTRO_FEATURES_append = " systemd"
+  standard: |
+    CONF_VERSION = "1"
+    PACKAGE_CLASSES = "package_rpm"
+    SDKMACHINE = "x86_64"
+    USER_CLASSES = "buildstats image-mklibs image-prelink"
+    PATCHRESOLVE = "noop"
+  debug-tweaks: |
+    EXTRA_IMAGE_FEATURES = "debug-tweaks"
+  diskmon: |
+    BB_DISKMON_DIRS = "\
+        STOPTASKS,${TMPDIR},1G,100K \
+        STOPTASKS,${DL_DIR},1G,100K \
+        STOPTASKS,${SSTATE_DIR},1G,100K \
+        STOPTASKS,/tmp,100M,100K \
+        ABORT,${TMPDIR},100M,1K \
+        ABORT,${DL_DIR},100M,1K \
+        ABORT,${SSTATE_DIR},100M,1K \
+        ABORT,/tmp,10M,1K"
+

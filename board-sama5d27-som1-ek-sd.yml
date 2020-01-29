@@ -1,0 +1,4 @@
+header:
+  version: 8
+
+machine: sama5d27-som1-ek-sd

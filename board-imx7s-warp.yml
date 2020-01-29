@@ -1,0 +1,8 @@
+header:
+  version: 8
+
+machine: imx7s-warp
+
+local_conf_header:
+  nxp-specific: |
+    ACCEPT_FSL_EULA = "1"
