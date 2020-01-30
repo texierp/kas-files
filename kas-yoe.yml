@@ -1,0 +1,73 @@
+header:
+  version: 8
+
+distro: yoe
+target: core-image-base
+
+repos:
+
+  poky:
+    url: https://git.yoctoproject.org/git/poky
+    refspec: 1cebd3469e295b4b1ae46effe5cf521b5264ee05
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+
+  meta-yoe:
+    url: https://github.com/YoeDistro/meta-yoe
+    refspec: aedecab008bf9acdcfd04f90dee9abf6fb750c4d
+
+  meta-freescale:
+    url: https://github.com/Freescale/meta-freescale
+    refspec: 38591d703677a2da81878a4148d8feaa17f30767
+
+  meta-freescale-3rdparty:
+    url: https://github.com/Freescale/meta-freescale-3rdparty
+    refspec: fdc6360b8f803257e9ad74a3ce150d6e2393fa8a
+
+  meta-atmel:
+    url: https://github.com/linux4sam/meta-atmel
+    refspec: 8b9d0953c76fa9359cb7438ffe422f6434c9660b
+
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi
+    refspec: 4801ca3f039f54e6156d761d2a250a8ef9d422eb
+
+  meta-riscv:
+    url: https://github.com/riscv/meta-riscv
+    refspec: 687750d76148712a9b698eb68f47f9795321223b
+
+  meta-openembedded:
+    url: http://git.openembedded.org/meta-openembedded
+    refspec: 4043bcc714d4aa7abaee7e8e5911f76701207497
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+
+bblayers_conf_header:
+  standard: |
+    POKY_BBLAYERS_CONF_VERSION = "2"
+    BBPATH = "${TOPDIR}"
+    BBFILES ?= ""
+  standard: |
+    YOE_PROFILE = "yoe-glibc-systemd-wayland"
+    CONF_VERSION = "1"
+    PACKAGE_CLASSES = "package_rpm"
+    SDKMACHINE = "x86_64"
+    USER_CLASSES = "buildstats image-mklibs image-prelink"
+    PATCHRESOLVE = "noop"
+  debug-tweaks: |
+    EXTRA_IMAGE_FEATURES = "debug-tweaks"
+  diskmon: |
+    BB_DISKMON_DIRS = "\
+        STOPTASKS,${TMPDIR},1G,100K \
+        STOPTASKS,${DL_DIR},1G,100K \
+        STOPTASKS,${SSTATE_DIR},1G,100K \
+        STOPTASKS,/tmp,100M,100K \
+        ABORT,${TMPDIR},100M,1K \
+        ABORT,${DL_DIR},100M,1K \
+        ABORT,${SSTATE_DIR},100M,1K \
+        ABORT,/tmp,10M,1K"
+
