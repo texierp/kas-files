@@ -51,6 +51,9 @@ bblayers_conf_header:
     POKY_BBLAYERS_CONF_VERSION = "2"
     BBPATH = "${TOPDIR}"
     BBFILES ?= ""
+local_conf_header:
+  reduce_diskspace: |
+    INHERIT += "rm_work_and_downloads"
   standard: |
     YOE_PROFILE = "yoe-glibc-systemd-wayland"
     CONF_VERSION = "1"
