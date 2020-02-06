@@ -23,3 +23,7 @@ jobs:
         sudo pip3 install kas
     - name: Run kas on ${{ matrix.yocto-version }}
       run: kas build kas-poky.yml:board-raspberrypi3.yml
+    - uses: actions/upload-artifact@v1
+      with:
+        name: rpi-poky-image
+        path: build/tmp/deploy/images/raspberrypi3/
