@@ -22,4 +22,4 @@ jobs:
       run: |
         sudo pip3 install kas
     - name: Run kas on ${{ matrix.yocto-version }}
-      run: kas build kas-poky.yml:board-sama5d27-som1-ek-sd.yml
+      run: kas build kas-poky.yml:board-raspberrypi3.yml
