@@ -36,7 +36,7 @@ repos:
 
   meta-riscv:
     url: https://github.com/riscv/meta-riscv
-    refspec: 687750d76148712a9b698eb68f47f9795321223b
+    refspec: b4ec1d4780eb87129a837a2a35aadabe867a9c98
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
