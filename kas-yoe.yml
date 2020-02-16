@@ -36,7 +36,7 @@ repos:
 
   meta-riscv:
     url: https://github.com/riscv/meta-riscv
-    refspec: b4ec1d4780eb87129a837a2a35aadabe867a9c98
+    refspec: 590357c49bf85e2eadf4068e53d2511b468737cc
 
   meta-stm32mp1:
     url: https://github.com/bdx-iot/meta-stm32mp1
