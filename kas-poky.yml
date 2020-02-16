@@ -7,7 +7,7 @@ target: core-image-base
 repos:
 
   poky:
-    url: https://git.yoctoproject.org/git/poky
+    url: git://git.yoctoproject.org/poky
     refspec: 7f2af8bd795ace46828952a7812f0bbdf26529ab
     layers:
       meta:
