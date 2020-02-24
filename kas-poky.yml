@@ -28,7 +28,7 @@ repos:
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
-    refspec: 42c0a4d3155505d826f63cf4db662c7e639ee045
+    refspec: 7a8c76f056ee3c64441f6832c9ea708d081d5392
 
   meta-riscv:
     url: https://github.com/riscv/meta-riscv
