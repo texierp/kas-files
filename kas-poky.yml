@@ -41,6 +41,7 @@ repos:
       meta-oe:
       meta-python:
       meta-networking:
+      meta-webserver:
 
 bblayers_conf_header:
   standard: |
