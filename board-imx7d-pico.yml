@@ -1,0 +1,8 @@
+header:
+  version: 8
+
+machine: imx7d-pico
+
+local_conf_header:
+  nxp-specific: |
+    ACCEPT_FSL_EULA = "1"
