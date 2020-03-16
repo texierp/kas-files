@@ -57,6 +57,8 @@ bblayers_conf_header:
     BBPATH = "${TOPDIR}"
     BBFILES ?= ""
 local_conf_header:
+  swupdate: |
+    PREFERRED_VERSION_swupdate = "2019.11+git%"
   reduce_diskspace: |
     INHERIT += "rm_work_and_downloads"
   systemd: |
