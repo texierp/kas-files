@@ -50,6 +50,7 @@ repos:
       meta-python:
       meta-networking:
       meta-webserver:
+      meta-filesystems:
 
 bblayers_conf_header:
   standard: |
