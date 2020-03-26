@@ -40,7 +40,7 @@ repos:
 
   meta-swupdate-boards:
     url: https://github.com/sbabic/meta-swupdate-boards
-    refspec: bdc467d24d510d18c325fe6d1835527837d9450f
+    refspec: 534ba7490300582c488578873173bc1293d6f8f3
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
