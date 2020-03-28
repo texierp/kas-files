@@ -34,10 +34,6 @@ repos:
     url: https://github.com/bdx-iot/meta-stm32mp1
     refspec: 3e7c4d7e70a950d1736c848e22e820b906009c19
 
-  meta-swupdate:
-    url: https://github.com/sbabic/meta-swupdate
-    refspec: e6a6ac98bac70146715bb6c0996bf043f68edb6e
-
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
     refspec: 525f1c4ade8774ec8c8a6a0045a6860574220335
@@ -54,8 +50,6 @@ bblayers_conf_header:
     BBPATH = "${TOPDIR}"
     BBFILES ?= ""
 local_conf_header:
-  swupdate: |
-    PREFERRED_VERSION_swupdate = "2019.11+git%"
   reduce_diskspace: |
     INHERIT += "rm_work_and_downloads"
   systemd: |

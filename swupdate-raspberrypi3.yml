@@ -1,0 +1,24 @@
+header:
+  version: 8
+  includes:
+    - board-raspberrypi3.yml
+
+target: update-image
+
+repos:
+
+  meta-swupdate:
+    url: https://github.com/sbabic/meta-swupdate
+    refspec: e6a6ac98bac70146715bb6c0996bf043f68edb6e
+
+  meta-swupdate-boards:
+    url: https://github.com/sbabic/meta-swupdate-boards
+    refspec: 534ba7490300582c488578873173bc1293d6f8f3
+
+local_conf_header:
+  swu-specific: |
+    PREFERRED_VERSION_swupdate = "2019.11+git%"
+    PREFERRED_RPROVIDER_u-boot-fw-utils = "libubootenv"
+    IMAGE_FSTYPES_append = " ext4.gz"
+    IMAGE_INSTALL_append = " libubootenv-bin swupdate swupdate-progress swupdate-www swupdate-tools kernel-image kernel-modules"
+    WKS_FILES_raspberrypi3 = "ts-raspberrypi.wks"
