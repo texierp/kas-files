@@ -38,6 +38,7 @@ You can replace `machine name` by the following machine config file:
 ├── board-raspberrypi3.yml
 ├── board-sama5d27-som1-ek-sd.yml
 ├── board-stm32mp157a-dk1.yml
+└── swupdate-raspberrypi3.yml
 ```
 
 See after for the `raspberrypi3`:
