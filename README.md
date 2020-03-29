@@ -80,3 +80,8 @@ $ ./kas-docker build kas-files/kas-poky.yml:kas-files/board-raspberrypi3.yml
 
 The above command disposes the build container after use, keeping downloads and
 build results in the current work directory.
+
+Maintainer
+----------
+
+- Pierre-Jean Texier (Koncepto)
