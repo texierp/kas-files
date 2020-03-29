@@ -1,5 +1,7 @@
 # Kas files
 
+[![Build Status](http://51.75.135.20:8080/buildStatus/icon?job=kas-files)](http://51.75.135.20:8080/job/kas-files/)
+
 ## Building an Image
 
 Native Build
