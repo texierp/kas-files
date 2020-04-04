@@ -38,6 +38,7 @@ You can replace `machine name` by the following machine config file:
 ├── board-imx7s-warp.yml
 ├── board-qemuarm-testimage.yml
 ├── board-raspberrypi3.yml
+├── board-raspberrypi4.yml
 ├── board-sama5d27-som1-ek-sd.yml
 ├── board-stm32mp157a-dk1.yml
 └── swupdate-raspberrypi3.yml
