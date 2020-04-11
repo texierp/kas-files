@@ -2,6 +2,12 @@
 
 [![Build Status](http://51.75.135.20:8080/buildStatus/icon?job=kas-files)](http://51.75.135.20:8080/job/kas-files/)
 
+## CI status
+
+|  Board  |  Status |
+|:-------:|:-------:|
+|    imx7s-warp     |     [![Build Status](http://51.75.135.20:8080/buildStatus/icon?job=imx7s-warp)](http://51.75.135.20:8080/job/imx7s-warp/)    |
+
 ## Building an Image
 
 Native Build
