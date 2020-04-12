@@ -7,6 +7,7 @@
 |  Board  |  Status |
 |:-------:|:-------:|
 |    imx7s-warp     |     [![Build Status](http://51.75.135.20:8080/buildStatus/icon?job=imx7s-warp)](http://51.75.135.20:8080/job/imx7s-warp/)    |
+|    raspberrypi3   |     [![Build Status](http://51.75.135.20:8080/buildStatus/icon?job=raspberrypi3)](http://51.75.135.20:8080/job/raspberrypi3/)    |
 
 ## Building an Image
 
