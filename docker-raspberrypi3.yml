@@ -1,0 +1,15 @@
+header:
+  version: 8
+  includes:
+    - board-raspberrypi3.yml
+
+repos:
+
+  meta-virtualization:
+    url: https://git.yoctoproject.org/git/meta-virtualization
+    refspec: b24e0b8cdac6c86d1d2e96a3c5dd9901cf2412cc
+
+local_conf_header:
+  virtualization-specific: |
+    DISTRO_FEATURES_append = " virtualization"
+    IMAGE_INSTALL_append = " docker-ce"
