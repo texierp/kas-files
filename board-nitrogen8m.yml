@@ -1,0 +1,8 @@
+header:
+  version: 8
+
+machine: nitrogen8m
+
+local_conf_header:
+  nxp-specific: |
+    ACCEPT_FSL_EULA = "1"
