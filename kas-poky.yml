@@ -16,7 +16,7 @@ repos:
 
   meta-freescale:
     url: https://github.com/Freescale/meta-freescale
-    refspec: 3fd85f63dc0894a7f0caa62146b99cd7f400e671
+    refspec: 07352f36706ad5546dbf3ea8dccf8d8de217b916
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
