@@ -17,7 +17,7 @@ repos:
 
 local_conf_header:
   swu-specific: |
-    PREFERRED_VERSION_swupdate = "2019.11+git%"
+    PREFERRED_VERSION_swupdate = "2020.04+git%"
     PREFERRED_RPROVIDER_u-boot-fw-utils = "libubootenv"
     IMAGE_FSTYPES_append = " ext4.gz"
     IMAGE_INSTALL_append = " libubootenv-bin swupdate swupdate-progress swupdate-www swupdate-tools kernel-image kernel-modules"
