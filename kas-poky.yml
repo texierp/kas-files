@@ -24,7 +24,7 @@ repos:
 
   meta-atmel:
     url: https://github.com/linux4sam/meta-atmel
-    refspec: 02df2ade5ec23e90e5ea5f56eb361889daa350df
+    refspec: f94f2432ed2e99bcf333c29e2c1062a0eb5fc2d5
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
