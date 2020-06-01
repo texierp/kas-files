@@ -45,6 +45,7 @@ You can replace `machine name` by the following machine config file:
 ├── board-beaglebone-yocto.yml
 ├── board-imx7d-pico.yml
 ├── board-imx7s-warp.yml
+├── board-nitrogen8m.yml
 ├── board-qemuarm-testimage.yml
 ├── board-raspberrypi3.yml
 ├── board-raspberrypi4.yml
