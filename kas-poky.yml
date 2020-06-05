@@ -28,7 +28,7 @@ repos:
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
-    refspec: 4982da8d48ce9e7025955d88d2cff6350b228c28
+    refspec: e589e0f3fda8f15f1093909328605e0bb6516d94
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
