@@ -32,7 +32,7 @@ repos:
 
   meta-stm32mp1:
     url: https://github.com/bdx-iot/meta-stm32mp1
-    refspec: e6169a24d7cc639b12c0aa7ee526daa8d4d256df
+    refspec: 8c214c03cb646b87ff1502e9c0b75a7123b9f1b3
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
