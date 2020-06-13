@@ -20,7 +20,7 @@ repos:
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
-    refspec: 78faca940efea6089430f7b94129ebaeffb1a34f
+    refspec: f57de4d2d9b9cd342e0d01fd1b15be3e842ccd34
 
   meta-atmel:
     url: https://github.com/linux4sam/meta-atmel
