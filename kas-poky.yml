@@ -36,7 +36,7 @@ repos:
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: 31ba7ee4202da0bcfb5c18e516a78a55b282948a
+    refspec: 629696b64b93fb94069a440459222f1dd2be56e8
     layers:
       meta-oe:
       meta-python:
