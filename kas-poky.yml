@@ -8,7 +8,7 @@ repos:
 
   poky:
     url: git://git.yoctoproject.org/poky
-    refspec: 8ea47abf69db6b0321415d4d04edc10d67a55acd
+    refspec: 7152db44930b5e0e985cef103e8b65c138911232
     layers:
       meta:
       meta-poky:
