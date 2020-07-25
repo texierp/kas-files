@@ -1,18 +1,6 @@
 header:
   version: 8
 
-repos:
-
-  meta-backport:
-    url: https://github.com/texierp/meta-backport
-    refspec: 4fa494e425164aa6bce97637eb8767733af0bea8
-
-  poky:
-    patches:
-      01-kernel-yocto:
-        path: oe-patches/0001-kernel-yocto.bbclass-force-creation-of-config.queue.patch
-        repo: meta-backport
-
 machine: nitrogen8m
 
 local_conf_header:
