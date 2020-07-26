@@ -7,7 +7,7 @@ repos:
 
   meta-virtualization:
     url: https://git.yoctoproject.org/git/meta-virtualization
-    refspec: 87b9e054ff1b4812194af9f0b4f3083400d42095
+    refspec: 65c40e6e57c92200160125a0776d88a64c1bf912
 
 local_conf_header:
   virtualization-specific: |
