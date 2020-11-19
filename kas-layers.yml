@@ -17,7 +17,7 @@ repos:
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
-    refspec: 2e0b2d41cf5b2186bc534a9d9f55a62c952ea236
+    refspec: 9e9746f5a72176b5815ba1f9b30bc7d30be2d9e6
 
   meta-stm32mp1:
     url: https://github.com/bdx-iot/meta-stm32mp1
