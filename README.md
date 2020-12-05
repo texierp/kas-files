@@ -98,4 +98,4 @@ build results in the current work directory.
 Maintainer
 ----------
 
-- Pierre-Jean Texier (Koncepto)
+- Pierre-Jean Texier
