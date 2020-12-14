@@ -1,0 +1,12 @@
+header:
+  version: 8
+  includes:
+    - board-sama5d27-som1-ek-sd.yml
+    - kas-swupdate.yml
+
+target: update-image
+
+local_conf_header:
+  swu-specific: |
+    IMAGE_FSTYPES_append = " wic.bz2 wic.bmap"
+    WKS_FILES = "sama5d27.wks"
