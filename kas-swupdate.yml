@@ -1,0 +1,26 @@
+header:
+  version: 8
+
+repos:
+
+  meta-swupdate:
+    url: https://github.com/sbabic/meta-swupdate
+    refspec: 9995157cd8babb3c155b0894f51317feaaca4148
+
+  meta-swupdate-boards:
+    url: https://github.com/sbabic/meta-swupdate-boards
+    refspec: 76554e196b018c0b891e5c9da10c2b605c7e2b98
+
+local_conf_header:
+  swu-specific: |
+    PREFERRED_VERSION_swupdate = "2020.11+git%"
+    IMAGE_FSTYPES_append = " ext4.gz"
+    IMAGE_INSTALL_append = " \
+        libubootenv-bin \
+        swupdate \
+        swupdate-progress \
+        swupdate-tools-hawkbit \
+        swupdate-www \
+        kernel-image \
+        kernel-module \
+    "
