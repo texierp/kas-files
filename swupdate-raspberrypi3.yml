@@ -7,5 +7,5 @@ header:
 target: update-image
 
 local_conf_header:
-  swu-specific: |
+  swu-specific-rpi: |
     WKS_FILES_raspberrypi3 = "ts-raspberrypi.wks"
