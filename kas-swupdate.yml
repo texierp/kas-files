@@ -22,5 +22,5 @@ local_conf_header:
         swupdate-tools-hawkbit \
         swupdate-www \
         kernel-image \
-        kernel-module \
+        kernel-modules \
     "
