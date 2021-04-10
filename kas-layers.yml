@@ -5,15 +5,15 @@ repos:
 
   meta-freescale:
     url: https://github.com/Freescale/meta-freescale
-    refspec: 776932e187f38ca53ed57fc662461ba0da005520
+    refspec: 55863907f41f015f8bd9741d63224334298dbbe2
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
     refspec: 46109e498cf6e40e1cba9a88a6f476932ad5a641
 
   meta-atmel:
-    url: https://github.com/linux4sam/meta-atmel
-    refspec: 98d9c1d632d4c43c338cf573db244a6ade126ae3
+    url: https://github.com/texierp/meta-atmel
+    refspec: 95896f47b2f6b259454ca66a2624d86f1203341f
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
