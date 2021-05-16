@@ -9,7 +9,7 @@ repos:
 
   meta-swupdate-boards:
     url: https://github.com/sbabic/meta-swupdate-boards
-    refspec: 76554e196b018c0b891e5c9da10c2b605c7e2b98
+    refspec: a99ab1f15b920fd592d073b401d73412eb56ffd6
 
 local_conf_header:
   swu-specific: |
