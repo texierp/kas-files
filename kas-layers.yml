@@ -28,6 +28,7 @@ repos:
     refspec: f2dd5227245bd1c9f6e40b41b2df298ff27d80b3
     layers:
       meta-oe:
+      meta-perl:
       meta-python:
       meta-networking:
       meta-webserver:
