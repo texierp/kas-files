@@ -7,7 +7,6 @@ local_conf_header:
   rpi-specific: |
     DISABLE_OVERSCAN = "1"
     DISABLE_SPLASH = "1"
-    DISABLE_VC4GRAPHICS = "1"
     ENABLE_UART = "1"
     ENABLE_I2C = "1"
     RPI_USE_U_BOOT = "1"
