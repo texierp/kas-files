@@ -21,7 +21,7 @@ repos:
 
   meta-security:
     url: git://git.yoctoproject.org/meta-security
-    refspec: ab239f1497243c3b5bc90abae92ca0afa8f4d92f
+    refspec: e1619009850f1ee1db240d6ab1114c65d3f1feb8
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
