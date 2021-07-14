@@ -9,7 +9,7 @@ repos:
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
-    refspec: 7f23af99cb97a12134a46b5b9d497f05b758bf0c
+    refspec: 2959439367dce3df339e24e1224f0e910b1faf2a
 
   meta-atmel:
     url: https://github.com/texierp/meta-atmel
