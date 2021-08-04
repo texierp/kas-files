@@ -11,10 +11,6 @@ repos:
     url: https://github.com/Freescale/meta-freescale-3rdparty
     refspec: 2959439367dce3df339e24e1224f0e910b1faf2a
 
-  meta-atmel:
-    url: https://github.com/texierp/meta-atmel
-    refspec: 95896f47b2f6b259454ca66a2624d86f1203341f
-
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
     refspec: 5689280cd85b1b5fe8b18615cbd0f6982bd9982c
