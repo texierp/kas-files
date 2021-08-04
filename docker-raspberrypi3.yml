@@ -11,5 +11,5 @@ repos:
 
 local_conf_header:
   virtualization-specific: |
-    DISTRO_FEATURES_append = " virtualization"
-    IMAGE_INSTALL_append = " docker-ce"
+    DISTRO_FEATURES:append = " virtualization"
+    IMAGE_INSTALL:append = " docker-ce"

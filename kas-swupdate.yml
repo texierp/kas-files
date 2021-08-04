@@ -14,8 +14,8 @@ repos:
 local_conf_header:
   swu-specific: |
     PREFERRED_VERSION_swupdate = "2021.04+git%"
-    IMAGE_FSTYPES_append = " ext4.gz"
-    IMAGE_INSTALL_append = " \
+    IMAGE_FSTYPES:append = " ext4.gz"
+    IMAGE_INSTALL:append = " \
         libubootenv-bin \
         swupdate \
         swupdate-progress \

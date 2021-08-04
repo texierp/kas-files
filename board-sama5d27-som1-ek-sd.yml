@@ -5,4 +5,4 @@ machine: sama5d27-som1-ek-sd
 
 local_conf_header:
   os-specific: |
-    IMAGE_INSTALL_append = " libgpiod libgpiod-tools"
+    IMAGE_INSTALL:append = " libgpiod libgpiod-tools"

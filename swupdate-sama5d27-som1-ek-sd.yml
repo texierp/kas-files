@@ -8,5 +8,5 @@ target: update-image
 
 local_conf_header:
   swu-specific-atmel: |
-    IMAGE_FSTYPES_append = " wic.bz2 wic.bmap"
+    IMAGE_FSTYPES:append = " wic.bz2 wic.bmap"
     WKS_FILES = "sama5d27.wks"

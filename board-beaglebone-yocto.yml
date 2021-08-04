@@ -5,4 +5,4 @@ machine: beaglebone-yocto
 
 local_conf_header:
   os-specific: |
-    IMAGE_INSTALL_append = " bmap-tools"
+    IMAGE_INSTALL:append = " bmap-tools"

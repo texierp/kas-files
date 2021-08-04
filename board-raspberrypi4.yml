@@ -11,4 +11,4 @@ local_conf_header:
     ENABLE_UART = "1"
     ENABLE_I2C = "1"
     RPI_USE_U_BOOT = "1"
-    DISTRO_FEATURES_append = " wifi"
+    DISTRO_FEATURES:append = " wifi"

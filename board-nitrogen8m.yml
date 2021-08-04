@@ -6,3 +6,4 @@ machine: nitrogen8m
 local_conf_header:
   nxp-specific: |
     ACCEPT_FSL_EULA = "1"
+    IMAGE_INSTALL:append = " i2c-tools"
