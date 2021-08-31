@@ -21,7 +21,7 @@ repos:
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: 1b358be2b88eb78b557fbb2479321c2fdcbac9e0
+    refspec: fe90d2095326068cdc3744a3fe56762e3e4562ce
     layers:
       meta-oe:
       meta-perl:
