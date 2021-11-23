@@ -5,7 +5,7 @@ repos:
 
   meta-swupdate:
     url: https://github.com/sbabic/meta-swupdate
-    refspec: b935dff4c14eebba9fc61a1bc11df876ff89061a
+    refspec: f4734e08851ad146a2c2c9eb81057b9b866ee51a
 
   meta-swupdate-boards:
     url: https://github.com/sbabic/meta-swupdate-boards
