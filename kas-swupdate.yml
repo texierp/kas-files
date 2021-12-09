@@ -5,7 +5,7 @@ repos:
 
   meta-swupdate:
     url: https://github.com/sbabic/meta-swupdate
-    refspec: f4734e08851ad146a2c2c9eb81057b9b866ee51a
+    refspec: 344a46a1b372679593affe148a535192386a7499
 
   meta-swupdate-boards:
     url: https://github.com/sbabic/meta-swupdate-boards
@@ -13,13 +13,13 @@ repos:
 
 local_conf_header:
   swu-specific: |
-    PREFERRED_VERSION_swupdate = "2021.04+git%"
+    PREFERRED_VERSION_swupdate = "2021.11+git%"
     IMAGE_FSTYPES:append = " ext4.gz"
     IMAGE_INSTALL:append = " \
         libubootenv-bin \
         swupdate \
         swupdate-progress \
-        swupdate-tools-hawkbit \
+        swupdate-tools-ipc \
         swupdate-www \
         kernel-image \
         kernel-modules \
