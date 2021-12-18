@@ -13,7 +13,7 @@ repos:
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
-    refspec: 54213e7127443d630765bf6073dc6bc1073705d2
+    refspec: cd234925fa59197a52f4cb5011902ab5867c684f
 
   meta-security:
     url: git://git.yoctoproject.org/meta-security
