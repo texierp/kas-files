@@ -5,19 +5,19 @@ repos:
 
   meta-freescale:
     url: https://github.com/Freescale/meta-freescale
-    refspec: e35bb7331e82102ef2bbfce46b394d23be135dbf
+    refspec: 96a0904cd0562378411c373f8a976c749772202b
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
-    refspec: 60595861de106c48c94875e49303ca6bb6270a1a
+    refspec: de0eb1408150d77f9cce97c559f9a5a3c71e5d6c
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
-    refspec: 6eebb58ef612767e5ebe0066c089e6aa9ec29500
+    refspec: 0135a02ea577bd39dd552236ead2c5894d89da1d
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: a558d51fecda3e66ace21d02b57ab61bf122fdc1
+    refspec: aea550e75dbff04d6ff1beb6c699ec4b680e6e8a
     layers:
       meta-oe:
       meta-perl:

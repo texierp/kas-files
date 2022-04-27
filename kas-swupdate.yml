@@ -5,11 +5,11 @@ repos:
 
   meta-swupdate:
     url: https://github.com/sbabic/meta-swupdate
-    refspec: 637cf67edaf167577c0dc48fc577387c37466dc0
+    refspec: 605925a2dd8a390f294b97bd9122ba3a0bf852ca
 
   meta-swupdate-boards:
     url: https://github.com/sbabic/meta-swupdate-boards
-    refspec: ad2a158e63cdab33593c582b66e817b1ff7a0250
+    refspec: f748430fc2d0183bcbad93e5754ea44a95191f36
 
 local_conf_header:
   swu-specific: |
