@@ -1,16 +1,5 @@
 # Kas files
 
-[![Build Status](http://51.75.135.20:8200/buildStatus/icon?job=kas-files)](http://51.75.135.20:8200/job/kas-files/)
-
-## CI status
-
-|  Board  |  Status |
-|:-------:|:-------:|
-|    imx7s-warp     |     [![Build Status](http://51.75.135.20:8200/buildStatus/icon?job=imx7s-warp)](http://51.75.135.20:8200/job/imx7s-warp/)    |
-|    nitrogen8m     |     [![Build Status](http://51.75.135.20:8200/buildStatus/icon?job=nitrogen8m)](http://51.75.135.20:8200/job/nitrogen8m/)    |
-|    raspberrypi3   |     [![Build Status](http://51.75.135.20:8200/buildStatus/icon?job=raspberrypi3)](http://51.75.135.20:8200/job/raspberrypi3/)    |
-|    sama5d27-som1-ek-sd   |     [![Build Status](http://51.75.135.20:8200/buildStatus/icon?job=sama5d27-som1-ek-sd)](http://51.75.135.20:8200/job/sama5d27-som1-ek-sd/)    |
-
 ## Building an Image
 
 Native Build
