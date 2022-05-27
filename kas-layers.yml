@@ -9,7 +9,7 @@ repos:
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty
-    refspec: de0eb1408150d77f9cce97c559f9a5a3c71e5d6c
+    refspec: fb198b633408ff5d3972891a1eff3221c6d14f3f
 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi
